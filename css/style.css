@@ -1,0 +1,292 @@
+/*
+== Author ==
+Name: Md Ibrahim Sumon
+Email: ontoralo@gmail.com
+Website: www.ontoralo.com
+Address: Uttara, Dhaka
+*/
+/*  
+ === Index ===
+ 1. Header
+ 2. Hiro
+ 3. Facilisis
+ 4. Newslatter
+ 5. Blandit
+ 6. Placerat
+ 7. Footer
+
+/* Glogbal Css */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+
+}
+h2{
+	font-size: 60px;
+	color: #fff;
+}
+h3{	
+	font-size: 30px;
+	color: #fff;
+}
+h4{
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+}
+h6{
+	font-size: 14px;
+	color: #000;
+}
+p{
+	font-size: 15px;
+	color: #fff;
+}
+.btn-one{
+	display: block;
+	margin: 30px auto;
+	background-color: white;
+	color: #612316;
+	padding: 12px 40px;
+	border:none;
+	border-radius: 50px;
+
+}
+.btn-two{
+	display: block;
+	margin: 30px auto;
+	background-color: white;
+	color: #4e5159;
+	padding: 12px 40px;
+	border:none;
+	border-radius: 50px;
+}
+.btn-three{
+	display: block;
+	margin: 30px;
+	background-color: #dd4b2b;
+	color: #fff;
+	padding: 10px 45px;
+	border:none;
+	border-radius: 50px;
+}
+.btn-four{
+	display: block;
+	margin: 30px;
+	background-color: #4b4e73;
+	color: #fff;
+	padding: 10px 45px;
+	border:none;
+	border-radius: 50px;
+}
+
+/* Theme Css */
+/*Header Section Start */
+.nav-head{
+	background-color: #edeff1;
+	padding: 25px 0px;
+
+}
+.nav-link{
+	color: #31353e;
+}
+.nav-link.js-scroll-trigger.active{
+	background-color: #dd4b2b;
+	padding:10px 24px;
+	border-radius: 40px;
+	color: white;
+}
+
+/*Hero Section Start */
+
+.hero{
+	background:url(../img/header-bkg.png) no-repeat center top;
+	background-size: cover;
+}
+.hero-main{
+	padding-top: 400px;
+	text-align: center;
+}
+.food-item-one{
+	text-align: center;
+	padding-top: 100px;
+}
+.food-item-one h3{
+	padding: 15px 0px;
+}
+
+/*Facilisis Section Start */
+.facilities{
+	background-color: #edeff1;
+	padding: 50px 0px;
+}
+.news-item-one{
+	text-align: center;
+	padding-top: 50px;
+}
+.news-item-one h4{
+	padding-top: 15px;
+	padding-bottom: 5px;
+	font-weight: 700;
+}
+.news-item-one h6{
+	line-height: 25px;
+}
+/*Newslatter Section Start */
+.ante-donec{
+	background:url(../img/newslatter.png);
+	padding: 50px 0px;
+	text-align: center;
+}
+.newslatter-form{
+	position: relative;
+	width: 60%;
+	background-color: #ffffff5e;
+	padding: 10px;
+	border-radius: 40px;
+	border-style: solid;
+  	border-width: 2px;
+	border-color: #ffffff7a;
+}
+.newslatter-btn{
+	position: absolute;
+	padding: 10px 50px;
+	border-radius: 40px;
+	border:none;
+	right: 163px;
+	top: 2px;
+	background-color: #fff;
+	color: #000;
+}
+/*Blandit Section Start */
+.blandit{
+	padding: 30px 0px;
+}
+.blandit img{
+	padding: 30px 0px;
+}
+.blandit-content{
+	text-align: left;
+	padding-left: 30px;
+	padding-top: 50px;
+}
+/*Placerat Section Start */
+.placerat{
+	background-color: #d75d0e;
+	padding: 50px 0px;
+
+}
+.placerat-item{
+	text-align: center;
+}
+.placerat-item li{
+	display: block;
+	list-style: none;
+	text-decoration-color: white;
+}
+.placerat-item li a {
+	color: #fff;
+    text-decoration: none;
+}
+.placerat-item li a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+/*Footer Section Start */
+
+.footer-cont{
+	background:url(../img/footer.png);
+	padding-top: 100px;
+	padding-bottom: 200px;
+	background-size: cover;
+
+}
+.footer-cont-p{
+	text-align: center;
+}
+
+
+
+
+/* Media Query */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+.newslatter-form {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff5e;
+    padding: 10px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff7a;
+}
+.newslatter-btn{
+	margin: 50px auto;
+	padding: 10px 50px;
+	border-radius: 40px;
+	border:none;
+	background-color: red;
+	color: #fff;
+}
+
+
+
+
+ }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+.newslatter-form {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff5e;
+    padding: 10px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff7a;
+}
+.newslatter-btn{
+	margin: 50px auto;
+	padding: 10px 50px;
+	border-radius: 40px;
+	border:none;
+	background-color: red;
+	color: #fff;
+}
+ }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) 
+{ 
+	.newslatter-form {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff5e;
+    padding: 10px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff7a;
+}
+.newslatter-btn{
+	margin: 50px auto;
+	padding: 10px 50px;
+	border-radius: 40px;
+	border:none;
+	background-color: red;
+	color: #fff;
+} }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
+
